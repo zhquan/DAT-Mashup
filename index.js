@@ -75,7 +75,6 @@ function weather(latlng){
             format: "json"
         })
         .done(function( data ) {
-            console.log('dato: '+data.display_name);
             $.simpleWeather({
                 location: data.display_name,
                 woeid: '',
@@ -304,7 +303,6 @@ function deleteMark(){
     clearCircle();
     function clearCircle(){
         for(i in map._layers){
-            console.log(map._layers[i]._popup);
             if (map._layers[i]._popup != undefined){
                 var lat = map._layers[i]._popup._latlng.lat;
                 var lng = map._layers[i]._popup._latlng.lng;
@@ -318,10 +316,8 @@ function deleteMark(){
     }
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//var clientId = '229258777.apps.googleusercontent.com';
 var clientId = '';
 var apiKey = 'AIzaSyDh6LD0Xg3H30RMD6HRjJqqk7vPP1FQZgE';
-//var apiKey = 'AIzaSyBxP1Mju4NEw8TQQUhwzQtJWPlk1O4gXNc';
 var scopes = 'https://www.googleapis.com/auth/plus.me';
 function handleClientLoad() {
     gapi.client.setApiKey(apiKey);
