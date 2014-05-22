@@ -1,0 +1,123 @@
+#icono {
+    position: absolute;
+    right: 45%;
+}
+#icono:hover{
+    -webkit-animation: tiembla 0.1s infinite;
+}
+@-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+}
+#formulario {
+    left: 30%;
+    position: absolute;
+    border-radius: 15px;
+    color: black;
+}
+
+
+.perfil {
+    padding: 10px;
+    top: 65%;
+    width: 110px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background: silver;
+    border: solid;
+    border-radius: 35px;
+    float: left;
+}
+
+.perfil:hover {
+    background: #428BCA;
+}
+
+.localizacion {
+    margin-left: 30%;
+    border: solid;
+    width: 350px;
+    background: aqua;
+    border-radius: 15px;
+}
+.descripcion {
+    border: solid;
+    border-radius: 15px;
+    background: silver;
+}
+#comentarios {
+    margin-left: 10px;
+    width: 65%;
+    margin-right: 10px;
+    height: 90%;
+    float: left;
+}
+
+#imagen {
+    width: 20%;
+    height: 80%;
+    float: left;
+}
+
+#cuerpo {
+    height: 80%;
+    margin-left:30%;
+}
+
+#users {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 20%;
+    top: 500px;
+}
+
+#usuario {
+    width: 12%;
+    float: left;
+}
+
+#map {
+    height: 400px;
+}
+#geo {
+    position: absolute;
+    left: 75%;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    color: #428BCA;
+}
+#tiempo {
+    position: absolute;
+    left: 25%;
+}
+#weather {
+    border: solid;
+    border-radius: 25px;
+    background: silver;
+}
+li {
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+    list-style: none;
+}
+
+h1 {
+    color: #428BCA;
+}
+ul h1{
+    border: solid;
+    border-radius: 15px;
+    background: black;
+    list-style: none;
+}
+span {
+    background: silver;
+}
+.perfil img {
+    border-radius: 25px;
+}

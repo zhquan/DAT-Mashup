@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Quan">
+        <link rel="shortcut icon" href="Q.ico">
+
+        <title>Q-Mashup</title>
+        <link href="css/cover.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <link href="css/leaflet.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/magnific-popup.css"> 
+        <!-- <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.min.css"> -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui.custom.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/jquery.simpleWeather.min.js"></script>
+        <script src="index.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    </head>
+
+    <body>
+        <div class="inner cover">
+            <div id="tabs">
+                <ul>
+                    <li list-style="none"><a href="#home"><h1>HOME</h1></a></li>
+                    <li list-style="none"><a href="#usuarios"><h1>USERS</h1></a></li>
+                </ul>
+                <div id="home">
+                    <h1>¡¡¡Find your friends!!!<br>With<br>Q-Mashup</h1>
+                    <div id="cabecera" aling="center">
+                        <div id="icono" ><img src="addImage.png"></div>
+                        <div id="formulario" aling="center" style="display:none">
+                            <img src="lupa-gif.gif">
+                            <span>Google+ Id: </span><input type="text" id="UserId" title="Insert google+ ID">
+                            <button id="enviar">Search</button>
+                        </div>
+                    </div>
+                    <div id="geo"></div>
+                    <div id="users"></div>
+                </div>
+                <div id="usuarios">
+                    <div id="usuario">
+                        <h1>USER</h1>
+                        <div id="users2" style="overflow: scroll; height: 720px"></div>
+                    </div>
+                    <div id="cuerpo"></div>
+                    <div id="comentarios">
+                        <h1>Map and TimeLine</h1>
+                        <div id='mapa'>
+                            <div id='map'></div>
+                        </div>
+                        <div id='comentario' style="overflow: scroll; height: 317px"></div>
+                    </div>
+                    <div id="imagen">
+                        <h1>IMAGES</h1>
+                        <div id="images" class="gallery" style="overflow: scroll; height: 720px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

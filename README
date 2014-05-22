@@ -1,0 +1,44 @@
+Asignatura: Desarrollo de Aplicaciones Telemáticas
+
+Alumno: Quan Zhou
+
+Cuenta laboratorio: quan
+
+Curso: 2013/2014
+
+Para que funcione bien borrar todo el historial del navegador, para que no tenga confictos con el localStorage
+
+
+Parte obligatorio:
+    -El botón para borrar los mensajes marcados está alfinal de todos los comentarios del TimeLine.
+    -Si no existe el usuario salta un alert.
+    -Cuando borras un usuario te lleva por ùltima vez a su perfil.
+    -He tocado un poco el css de boobstrap original.
+
+Parte opcional:
+    -Favicon a la página.
+    -LocalStorage para almacenar la imagen y el nombre del usuario.
+    -Plugin de JQuery para pasar las fotos llamado "Magnific Popup" (pincha en una foto y aparece una ventana que ocupa la página entera para ver y pasar fotos mas facilmente).
+    -Te localiza la posición donde te encuentras si el navegador te lo permite.
+    -CSS3 del icono de añadir usuario.
+    -Plugin de Jquery para saber el tiempo meteorológico llamado "simpleWeather" (Metiendo el nombre de la ciudad te dice el tiempo de esa ciudad).
+
+
+
+Parte obligatoria:
+URL: https://www.youtube.com/watch?v=TGs3PdVJTrw 
+
+Parte opcional:
+URL: https://www.youtube.com/watch?v=mPCy9UwuzOs
+
+Modo de ejecución:
+1. 
+    terminal  -> python -m SimpleHTTPServer 8000
+    navegador -> localhost:8000/MASHUP/redes.html
+2.
+    navegador -> watson.gsyc.es/~quan/MASHUP/redes.html
+
+Usuarios de ejemplo de Google+:
+        '105313830640377595865'
+        '108086881826934773478'
+        '103846222472267112072'
